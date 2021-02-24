@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.given;
 
 import static org.hamcrest.Matchers.*;
 
-
+// steps definitions
 public class StepCadastro extends Engine{
 
     @Dado("que acesse a pagina de cadastro")
@@ -33,7 +33,6 @@ public class StepCadastro extends Engine{
                 .statusCode(200);
 
     }
-
 
     @Então("serei cadastrado com sucesso")
     public void serei_cadastrado_com_sucesso(){
