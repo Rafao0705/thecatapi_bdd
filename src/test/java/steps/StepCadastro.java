@@ -14,9 +14,7 @@ import static io.restassured.RestAssured.given;
 
 import static org.hamcrest.Matchers.*;
 
-// steps definitions commit
-// testando merge de branch
-// testando merge com pull request
+// testando merge com pull request2
 public class StepCadastro extends Engine{
 
     @Dado("que acesse a pagina de cadastro")
